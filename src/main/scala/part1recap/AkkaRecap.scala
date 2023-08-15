@@ -1,4 +1,4 @@
-package playground.part1recap
+package part1recap
 
 import akka.actor.SupervisorStrategy.{Restart, Stop}
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, OneForOneStrategy, PoisonPill, Props, Stash, SupervisorStrategy}
